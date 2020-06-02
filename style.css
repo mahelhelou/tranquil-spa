@@ -1,0 +1,111 @@
+/*
+Theme Name: Tranquil WP
+Theme URI: http://TRANQUILSPANTHEME.COM
+Author: Chris Dixon
+Author URI: http://wordpress.org/
+Description: Tranquil spa theme for wordpress
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: translation-ready, right-sidebar, custom-header, featured-images, custom-menu
+Text Domain: tranquilwp
+
+*/
+
+body {
+  font-family: 'Merriweather', serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+.feature-bg {
+  background: rgba(255, 255, 255, 0.3);
+  width: 100vw;
+  border-radius: 10px;
+}
+
+.feature-text {
+  font-size: 2rem;
+  line-height: 4rem;
+}
+
+.header_img {
+  min-height: 25vh;
+}
+
+.card {
+  margin-bottom: 20px;
+}
+
+/* Welcome section */
+.card-text {
+  font-size: 1.2rem;
+}
+
+/* Price list section */
+.title {
+  color: goldenrod;
+}
+
+.list-group-item {
+  background: none;
+  font-size: 1.1em;
+}
+
+/* footer */
+a {
+  color: #212529;
+}
+
+.widget-area > div > ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* .wp-post-image {
+	width: 75%;
+} */
+
+.wpcf7-form label {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .feature-bg {
+    width: 60vw;
+  }
+
+  .price {
+    position: absolute;
+    background: rgba(175, 169, 169, 0.6);
+    height: 80px;
+    width: 80px;
+    line-height: 80px;
+    border-radius: 100%;
+    top: -40px;
+    left: -40px;
+    margin-left: 50%;
+    font-size: 1.8rem;
+  }
+
+  .card {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .title {
+    margin-top: 1em;
+  }
+
+  footer button {
+    margin-top: 1em;
+  }
+
+  footer .col-sm-4 {
+    border-bottom: 1px solid #ddd;
+    padding: 20px 10px;
+  }
+}

@@ -1,0 +1,94 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2019-07-01 09:18+0100\n"
+"PO-Revision-Date: 2019-07-01 09:28+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;_x;_ex;_n;_nx;_n_noop;_nx_noop;"
+"translate_nooped_plural;esc_html;esc_html_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: archive.php:28 index.php:28 search.php:28
+msgid "Read more..."
+msgstr ""
+
+#: archive.php:33 index.php:33 single.php:28
+msgid "Sorry, no posts matched your criteria"
+msgstr ""
+
+#: comments.php:22
+#, php-format
+msgid "One comment on &ldquo;%s&rdquo;"
+msgstr ""
+
+#: comments.php:31
+#, php-format
+msgid "%1$s comment on &ldquo;%2$s&rdquo;"
+msgstr ""
+
+#: comments.php:57
+msgid "Comments are closed for this post"
+msgstr ""
+
+#: front-page.php:26
+msgid "Spa facilities"
+msgstr "Las instalaciones de spa"
+
+#: functions.php:20
+msgid "Main header menu"
+msgstr ""
+
+#: functions.php:21
+msgid " Footer Menu"
+msgstr ""
+
+#: functions.php:54 functions.php:56
+msgid "TRANQUIL SPA OFFICIAL BLOG"
+msgstr ""
+
+#: functions.php:57
+msgid "<br>"
+msgstr ""
+
+#: functions.php:58
+#, php-format
+msgid "Search results for: %s"
+msgstr ""
+
+#: functions.php:60
+msgid ""
+"Whoops, were a little lost<br>\n"
+"    <em>Let's get back on track</em>"
+msgstr ""
+
+#: functions.php:64
+msgid "FULLY RESPONSIVE<br> PREMIUM SPA THEME<br> FOR WORDPRESS"
+msgstr ""
+
+#: functions.php:106
+msgid " Lake 1 "
+msgstr ""
+
+#: functions.php:111
+msgid " Lake 2 "
+msgstr ""
+
+#: index.php:20
+msgid "Tagged: "
+msgstr ""
+
+#: page.php:12
+msgid "Sorry, no pages matched your criteria"
+msgstr ""
+
+#: search.php:33
+msgid "Sorry, no matches for:<em>"
+msgstr ""
