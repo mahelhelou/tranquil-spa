@@ -135,23 +135,23 @@
 <div class="container-fluid py-5 bg-dark">
   <div class="row">
     <div class="col-md-6 offset-md-3 text-center">
-      <h3 class="text-light">Price List</h3>
-      <img src="<?php echo esc_url(get_template_directory_uri()); ?>/images/divider-silver.png" alt="divider"
+      <h3 class="text-light"><?php esc_html_e( 'Price List', 'tranquil-spa' ); ?></h3>
+      <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/divider-silver.png" alt="divider"
         class="pb-4 w-25">
     </div>
   </div>
   <div class="row my-4">
     <div class="col-sm-8">
-      <img src="<?php echo esc_url(get_template_directory_uri()); ?>/images/massage.jpg" alt="massage picture">
+      <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/massage.jpg" alt="massage picture">
     </div>
     <div class="col-sm-4">
-      <h4 class="title text-center">Massages</h4>
+      <h4 class="title text-center"><?php esc_html_e( 'Massages', 'tranquil-spa' ); ?></h4>
       <ul class="list-group list-group-flush text-light">
-        <li class="list-group-item">Massage 1 <em>-$10</em></li>
-        <li class="list-group-item">Massage 2 <em>-$10</em></li>
-        <li class="list-group-item">Massage 3 <em>-$10</em></li>
-        <li class="list-group-item">Massage 4 <em>-$10</em></li>
-        <li class="list-group-item">Massage 5 <em>-$10</em></li>
+        <li class="list-group-item">Massage 1 <em>-$10</em>', 'tranquil-spa' ); ?></li>
+        <li class="list-group-item"><?php esc_html_e( 'Massage 2 <em>-$10</em>', 'tranquil-spa' ); ?></li>
+        <li class="list-group-item"><?php esc_html_e( 'Massage 3 <em>-$10</em>', 'tranquil-spa' ); ?></li>
+        <li class="list-group-item"><?php esc_html_e( 'Massage 4 <em>-$10</em>', 'tranquil-spa' ); ?></li>
+        <li class="list-group-item"><?php esc_html_e( 'Massage 5 <em>-$10</em>', 'tranquil-spa' ); ?></li>
       </ul>
     </div>
   </div>

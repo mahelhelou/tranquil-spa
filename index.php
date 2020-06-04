@@ -10,15 +10,15 @@
     <div class="row">
       <div class="col-sm-8">
 
-      <?php if( have_posts() ) : while ( have_posts()) : the_post(); ?>
+      <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
         <div <?php post_class( 'custom-class' ); ?>>
           <a href="<?php the_permalink(); ?>">
             <h2><?php the_title(); ?></h2>
           </a>
-          <p><?php echo esc_html( get_the_date( 'F j, Y' ) ); ?> <?php esc_html_e( 'by', 'tranquil-spa' ); ?> <a href="<?php the_author_posts_link(); ?>"><?php the_author(); ?></a></p>
+          <p><?php echo esc_html( get_the_date( 'F j, Y' ) ); ?> <?php esc_html_e( 'By', 'tranquil-spa' ); ?> <a href="<?php the_author_posts_link(); ?>"><?php the_author(); ?></a></p>
           <div class="pb-2">
             <i class="fas fa-tags"></i>
-            <p class="d-inline"><?php the_tags( est_html__('Tagged: ', ' ~ ','tranquil-spa') ); ?></p>
+            <p class="d-inline"><?php the_tags( esc_html__( 'Tagged: ', ' ~ ','tranquil-spa') ); ?></p>
           </div>
           <div class="my-3">
             <?php the_post_thumbnail( 'large' ); ?>
@@ -59,4 +59,4 @@
   </div><!-- /row -->
 </main><!-- /container -->
 
-<?php get_footer() ?>
+<?php get_footer(); ?>
